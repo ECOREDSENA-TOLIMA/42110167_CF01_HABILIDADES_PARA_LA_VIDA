@@ -13,295 +13,309 @@ export default {
   name: 'ActividadDidactica',
   data: () => ({
     cuestionario: {
-      tema: 'Nombre del componente formativo',
+      tema: 'Dimensiones del ser humano y satisfactores en la vida cotidiana',
       titulo: 'Cuestionario',
-      introduccion: '<b> Objetivo:</b> Texto de Word',
+      introduccion:
+        '<b> Objetivo:</b> comprender las dimensiones del ser humano según el enfoque de Desarrollo a Escala Humana (DEH), logrando entender las diferentes categorías de satisfactores en situaciones cotidianas.',
       barajarPreguntas: true,
       preguntas: [
         {
           id: 1,
-          texto: '¿Cuál es la capital de Francia?',
+          texto:
+            'El enfoque de Desarrollo a Escala Humana (DEH) se centra únicamente en el crecimiento económico.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'París', esCorrecta: true },
-            { id: 'b', texto: 'Londres', esCorrecta: false },
-            { id: 'c', texto: 'Berlín', esCorrecta: false },
-            { id: 'd', texto: 'Madrid', esCorrecta: false },
+            { id: 'a', texto: 'Falso', esCorrecta: true },
+            { id: 'b', texto: 'Verdadero', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'El DEH se enfoca en el bienestar humano mediante la satisfacción de necesidades fundamentales, no en el crecimiento económico.',
+          mensaje_incorrecto:
+            '¡No se preocupes por el error! Cada respuesta es una oportunidad para aprender y mejorar. Lo importante es seguir adelante y fortalecer los conocimientos.',
         },
         {
           id: 2,
-          texto: '¿Cuál es el planeta más cercano al Sol?',
+          texto:
+            'Las necesidades humanas fundamentales son universales y constantes en todas las culturas y períodos históricos.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Venus', esCorrecta: false },
-            { id: 'b', texto: 'Mercurio', esCorrecta: true },
-            { id: 'c', texto: 'Tierra', esCorrecta: false },
-            { id: 'd', texto: 'Marte', esCorrecta: false },
+            { id: 'a', texto: 'Falso', esCorrecta: false },
+            { id: 'b', texto: 'Verdadero', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Las necesidades son las mismas, pero las formas de satisfacerlas varían según la cultura y el contexto.',
+          mensaje_incorrecto:
+            '¡No se preocupes por el error! Cada respuesta es una oportunidad para aprender y mejorar. Lo importante es seguir adelante y fortalecer los conocimientos. ',
         },
         {
           id: 3,
-          texto: "¿Quién escribió 'Cien años de soledad'?",
+          texto:
+            'El trabajo es definido por Marx como una actividad esencial que transforma la naturaleza y al propio ser humano.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Gabriel García Márquez', esCorrecta: true },
-            { id: 'b', texto: 'Mario Vargas Llosa', esCorrecta: false },
-            { id: 'c', texto: 'Jorge Luis Borges', esCorrecta: false },
-            { id: 'd', texto: 'Pablo Neruda', esCorrecta: false },
+            { id: 'a', texto: 'Falso', esCorrecta: false },
+            { id: 'b', texto: 'Verdadero', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Según Marx, el trabajo es clave para el desarrollo humano y la transformación personal.',
+          mensaje_incorrecto:
+            '¡No se preocupes por el error! Cada respuesta es una oportunidad para aprender y mejorar. Lo importante es seguir adelante y fortalecer los conocimientos.',
         },
         {
           id: 4,
-          texto: '¿Cuál es el elemento químico con el símbolo H?',
+          texto: 'La lactancia materna es un ejemplo de satisfactor sinérgico.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Helio', esCorrecta: false },
-            { id: 'b', texto: 'Hidrógeno', esCorrecta: true },
-            { id: 'c', texto: 'Hierro', esCorrecta: false },
-            { id: 'd', texto: 'Hafnio', esCorrecta: false },
+            { id: 'a', texto: 'Falso', esCorrecta: false },
+            { id: 'b', texto: 'Verdadero', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Es sinérgico porque satisface necesidades como subsistencia, protección, afecto e identidad.',
+          mensaje_incorrecto:
+            '¡No se preocupes por el error! Cada respuesta es una oportunidad para aprender y mejorar. Lo importante es seguir adelante y fortalecer los conocimientos.',
         },
         {
           id: 5,
-          texto: '¿Cuál es el idioma más hablado del mundo?',
+          texto:
+            'El DEH considera que los bienes económicos siempre potencian la satisfacción de necesidades humanas.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Inglés', esCorrecta: false },
-            { id: 'b', texto: 'Español', esCorrecta: false },
-            { id: 'c', texto: 'Chino mandarín', esCorrecta: true },
-            { id: 'd', texto: 'Árabe', esCorrecta: false },
+            { id: 'a', texto: 'Falso', esCorrecta: true },
+            { id: 'b', texto: 'Verdadero', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Los bienes económicos pueden potenciar o limitar la satisfacción de necesidades según su uso.',
+          mensaje_incorrecto:
+            '¡No se preocupes por el error! Cada respuesta es una oportunidad para aprender y mejorar. Lo importante es seguir adelante y fortalecer los conocimientos.',
         },
         {
           id: 6,
-          texto: '¿En qué año llegó el hombre a la Luna?',
+          texto:
+            'Las competencias socioemocionales incluyen habilidades para tomar decisiones, comunicarse y trabajar en equipo.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: '1969', esCorrecta: true },
-            { id: 'b', texto: '1972', esCorrecta: false },
-            { id: 'c', texto: '1965', esCorrecta: false },
-            { id: 'd', texto: '1959', esCorrecta: false },
+            { id: 'a', texto: 'Falso', esCorrecta: false },
+            { id: 'b', texto: 'Verdadero', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Estas competencias son esenciales para interactuar y resolver problemas en diferentes contextos.',
+          mensaje_incorrecto:
+            '¡Continua no se rinda! Equivocarse es aprender. Siga intentando, está en el camino correcto.',
         },
         {
           id: 7,
-          texto: '¿Qué río atraviesa la ciudad de Londres?',
+          texto:
+            'Los satisfactores pseudosatisfactores generan una falsa sensación de satisfacción de necesidades.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Río Támesis', esCorrecta: true },
-            { id: 'b', texto: 'Río Danubio', esCorrecta: false },
-            { id: 'c', texto: 'Río Sena', esCorrecta: false },
-            { id: 'd', texto: 'Río Rin', esCorrecta: false },
+            { id: 'a', texto: 'Falso', esCorrecta: false },
+            { id: 'b', texto: 'Verdadero', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Aunque aparentan satisfacer necesidades, pueden limitar su satisfacción a mediano o largo plazo.',
+          mensaje_incorrecto:
+            '¡Continua no se rinda! Equivocarse es aprender. Siga intentando, está en el camino correcto.',
         },
         {
           id: 8,
-          texto: '¿Quién pintó la Mona Lisa?',
+          texto:
+            'Las necesidades axiológicas se refieren a subsistencia, afecto y libertad, entre otras.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Leonardo da Vinci', esCorrecta: true },
-            { id: 'b', texto: 'Pablo Picasso', esCorrecta: false },
-            { id: 'c', texto: 'Vincent van Gogh', esCorrecta: false },
-            { id: 'd', texto: 'Claude Monet', esCorrecta: false },
+            { id: 'a', texto: 'Falso', esCorrecta: false },
+            { id: 'b', texto: 'Verdadero', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Estas necesidades están relacionadas con el valor que damos a diferentes aspectos de la vida.',
+          mensaje_incorrecto:
+            '¡Continua no se rinda! Equivocarse es aprender. Siga intentando, está en el camino correcto.',
         },
         {
           id: 9,
-          texto: '¿Cuál es el océano más grande del mundo?',
+          texto:
+            "Las competencias del 'Ser' se relacionan con habilidades técnicas específicas.",
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Océano Atlántico', esCorrecta: false },
-            { id: 'b', texto: 'Océano Índico', esCorrecta: false },
-            { id: 'c', texto: 'Océano Pacífico', esCorrecta: true },
-            { id: 'd', texto: 'Océano Ártico', esCorrecta: false },
+            { id: 'a', texto: 'Falso', esCorrecta: true },
+            { id: 'b', texto: 'Verdadero', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            "Las competencias del 'Ser' están vinculadas a aspectos emocionales y personales, como la autoestima.",
+          mensaje_incorrecto:
+            '¡Continua no se rinda! Equivocarse es aprender. Siga intentando, está en el camino correcto.',
         },
         {
           id: 10,
-          texto: '¿Qué invento se le atribuye a Alexander Graham Bell?',
+          texto:
+            'La sostenibilidad ambiental es un elemento clave en los procesos de desarrollo humano.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Teléfono', esCorrecta: true },
-            { id: 'b', texto: 'Telégrafo', esCorrecta: false },
-            { id: 'c', texto: 'Bombilla', esCorrecta: false },
-            { id: 'd', texto: 'Radio', esCorrecta: false },
+            { id: 'a', texto: 'Falso', esCorrecta: false },
+            { id: 'b', texto: 'Verdadero', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Garantiza la biodiversidad y refleja respeto por la vida en todas sus formas.',
+          mensaje_incorrecto:
+            '¡Continua no se rinda! Equivocarse es aprender. Siga intentando, está en el camino correcto.',
         },
         {
           id: 11,
-          texto: '¿Qué continente alberga la selva amazónica?',
+          texto:
+            'Un satisfactor inhibidor facilita la satisfacción de todas las necesidades humanas fundamentales.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'África', esCorrecta: false },
-            { id: 'b', texto: 'Asia', esCorrecta: false },
-            { id: 'c', texto: 'América del Sur', esCorrecta: true },
-            { id: 'd', texto: 'Oceanía', esCorrecta: false },
+            { id: 'a', texto: 'Falso', esCorrecta: true },
+            { id: 'b', texto: 'Verdadero', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Los satisfactores inhibidores dificultan la satisfacción de otras necesidades.',
+          mensaje_incorrecto:
+            '¡No se preocupe por el error! Cada respuesta es una oportunidad para aprender y mejorar. Lo importante es seguir adelante y fortalecer los conocimientos.',
         },
         {
           id: 12,
-          texto: '¿Cuál es el animal más rápido del mundo?',
+          texto:
+            'La necesidad de libertad incluye la capacidad de elegir y actuar según los propios deseos.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Tigre', esCorrecta: false },
-            { id: 'b', texto: 'León', esCorrecta: false },
-            { id: 'c', texto: 'Guepardo', esCorrecta: true },
-            { id: 'd', texto: 'Jaguar', esCorrecta: false },
+            { id: 'a', texto: 'Falso', esCorrecta: false },
+            { id: 'b', texto: 'Verdadero', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'La libertad implica autonomía y responsabilidad en las decisiones.',
+          mensaje_incorrecto:
+            '¡No se preocupe por el error! Cada respuesta es una oportunidad para aprender y mejorar. Lo importante es seguir adelante y fortalecer los conocimientos.',
         },
         {
           id: 13,
           texto:
-            '¿Qué órgano es responsable de bombear la sangre en el cuerpo?',
+            'La ausencia de afecto puede llevar a conductas autodestructivas.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Cerebro', esCorrecta: false },
-            { id: 'b', texto: 'Pulmones', esCorrecta: false },
-            { id: 'c', texto: 'Corazón', esCorrecta: true },
-            { id: 'd', texto: 'Hígado', esCorrecta: false },
+            { id: 'a', texto: 'Falso', esCorrecta: false },
+            { id: 'b', texto: 'Verdadero', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'La falta de afecto afecta gravemente el bienestar emocional y social.',
+          mensaje_incorrecto:
+            '¡No se preocupe por el error! Cada respuesta es una oportunidad para aprender y mejorar. Lo importante es seguir adelante y fortalecer los conocimientos. ',
         },
         {
           id: 14,
-          texto: "¿Quién es el autor de 'Don Quijote de la Mancha'?",
+          texto: 'La educación crítica es un ejemplo de satisfactor singular.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Miguel de Cervantes', esCorrecta: true },
-            { id: 'b', texto: 'Federico García Lorca', esCorrecta: false },
-            { id: 'c', texto: 'Lope de Vega', esCorrecta: false },
-            { id: 'd', texto: 'Pedro Calderón de la Barca', esCorrecta: false },
+            { id: 'a', texto: 'Falso', esCorrecta: true },
+            { id: 'b', texto: 'Verdadero', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Es un satisfactor sinérgico, ya que satisface múltiples necesidades como entendimiento, participación y libertad.',
+          mensaje_incorrecto:
+            '¡No se preocupe por el error! Cada respuesta es una oportunidad para aprender y mejorar. Lo importante es seguir adelante y fortalecer los conocimientos.',
         },
         {
           id: 15,
-          texto: '¿Qué gas utilizan las plantas durante la fotosíntesis?',
+          texto:
+            "Las necesidades del 'Hacer' están relacionadas con acciones personales y colectivas.",
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Oxígeno', esCorrecta: false },
-            { id: 'b', texto: 'Dióxido de carbono', esCorrecta: true },
-            { id: 'c', texto: 'Nitrógeno', esCorrecta: false },
-            { id: 'd', texto: 'Hidrógeno', esCorrecta: false },
+            { id: 'a', texto: 'Falso', esCorrecta: false },
+            { id: 'b', texto: 'Verdadero', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Incluyen actividades necesarias para alcanzar objetivos y desarrollarse en diferentes áreas.',
+          mensaje_incorrecto:
+            '¡No se preocupe por el error! Cada respuesta es una oportunidad para aprender y mejorar. Lo importante es seguir adelante y fortalecer los conocimientos.',
         },
         {
           id: 16,
-          texto: '¿Quién fue el primer presidente de los Estados Unidos?',
+          texto:
+            'El autoritarismo es un satisfactor destructor que afecta necesidades como la libertad y la participación.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Thomas Jefferson', esCorrecta: false },
-            { id: 'b', texto: 'George Washington', esCorrecta: true },
-            { id: 'c', texto: 'Abraham Lincoln', esCorrecta: false },
-            { id: 'd', texto: 'John Adams', esCorrecta: false },
+            { id: 'a', texto: 'Falso', esCorrecta: false },
+            { id: 'b', texto: 'Verdadero', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Este tipo de satisfactor anula la posibilidad de satisfacer varias necesidades fundamentales.',
+          mensaje_incorrecto:
+            '¡Continue no se rinda! Equivocarse es aprender. Siga intentando, está en el camino correcto.',
         },
         {
           id: 17,
-          texto: '¿Qué país tiene el mayor número de habitantes?',
+          texto:
+            'La resiliencia es una competencia fundante relacionada con superar adversidades.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'India', esCorrecta: false },
-            { id: 'b', texto: 'Estados Unidos', esCorrecta: false },
-            { id: 'c', texto: 'China', esCorrecta: true },
-            { id: 'd', texto: 'Rusia', esCorrecta: false },
+            { id: 'a', texto: 'Falso', esCorrecta: false },
+            { id: 'b', texto: 'Verdadero', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'La resiliencia ayuda a encontrar fortalezas personales para enfrentar desafíos.',
+          mensaje_incorrecto:
+            '¡Continue no se rinda! Equivocarse es aprender. Siga intentando, está en el camino correcto.',
         },
         {
           id: 18,
-          texto: '¿Qué es el fenómeno de la refracción?',
+          texto:
+            'El nacionalismo extremo puede ser considerado un satisfactor pseudosatisfactor.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'La dispersión de la luz', esCorrecta: false },
-            {
-              id: 'b',
-              texto: 'El cambio de dirección de la luz',
-              esCorrecta: true,
-            },
-            { id: 'c', texto: 'La absorción de la luz', esCorrecta: false },
-            { id: 'd', texto: 'La emisión de luz', esCorrecta: false },
+            { id: 'a', texto: 'Falso', esCorrecta: false },
+            { id: 'b', texto: 'Verdadero', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Genera una falsa sensación de identidad que puede perjudicar otras necesidades.',
+          mensaje_incorrecto:
+            '¡Continue no se rinda! Equivocarse es aprender. Siga intentando, está en el camino correcto.',
         },
         {
           id: 19,
-          texto: '¿Cuál es el símbolo químico del oro?',
+          texto:
+            'El DEH mide el desarrollo humano según el ingreso per cápita de una población.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Ag', esCorrecta: false },
-            { id: 'b', texto: 'Au', esCorrecta: true },
-            { id: 'c', texto: 'Fe', esCorrecta: false },
-            { id: 'd', texto: 'Cu', esCorrecta: false },
+            { id: 'a', texto: 'Falso', esCorrecta: true },
+            { id: 'b', texto: 'Verdadero', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'El DEH mide el desarrollo según la satisfacción de necesidades humanas fundamentales.',
+          mensaje_incorrecto:
+            '¡Continue no se rinda! Equivocarse es aprender. Siga intentando, está en el camino correcto.',
         },
         {
           id: 20,
-          texto: '¿En qué año comenzó la Segunda Guerra Mundial?',
+          texto:
+            'La participación es una necesidad que puede satisfacerse en espacios como asociaciones y comunidades.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: '1914', esCorrecta: false },
-            { id: 'b', texto: '1939', esCorrecta: true },
-            { id: 'c', texto: '1945', esCorrecta: false },
-            { id: 'd', texto: '1929', esCorrecta: false },
+            { id: 'a', texto: 'Falso', esCorrecta: false },
+            { id: 'b', texto: 'Verdadero', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Estos espacios permiten a las personas intervenir y contribuir en actividades colectivas.',
+          mensaje_incorrecto:
+            '¡Continue no se rinda! Equivocarse es aprender. Siga intentando, está en el camino correcto.',
         },
       ],
       mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',

@@ -2,17 +2,105 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 51%
-    right: 30%
-
-
+    top: 24%
+    right: 71%
+  
 @keyframes float1
   0%
-    transform: translateY(20px)
-  100%
-    transform: translateY(0px)
+    transform: scale(1.2)
+
+// tarjetas
+.tarjeta.color
+  background-color: #E7EFFA
+.tarjeta.color2
+  background-color: #E6F3F3
+.tarjeta-avatar-b__img
+    min-width: 20%
+    max-width: 20%
+    position: relative
+    display: flex
+    align-items: center
+
+.fondo-1 
+  background: linear-gradient(to bottom, #FFF -10%, #E7EFFA 80%, #FFF 100%)
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.fondo-2 
+  background-image: url('../assets/curso/temas/fondo-2.svg')
+  background-repeat: no-repeat
+  background-size: cover
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+    
+
+//pestañas TabsA
+.tabs-a__tab
+  background-color: #D1E1DD
+
+//.tarjetas
+.tarjeta.tarjeta1
+  background-color: #FFEBEB
+.tarjeta.tarjeta2
+  background-color: #EDE6E0
+.tarjeta.tarjeta3
+  background-color: #FFF8E7
+.tarjeta.color-primario1
+  background-color: #DEDDE8
+
+  
+.cajon.cajon
+  background-color: #E6F3F3 
+.cajon.cajon1
+  background-color: #E6F3F3 
+.cajon.cajon3
+  background-color: #F3F9FF
+.cajon-b.color-primario:before
+  background-color: $color-secundario
+
+  
+//tablas
+.tabla-a thead
+  background-color: #D8DDE0  
+
+.clstabla table
+  min-width: 1060px
+  
+  
+.pasos-b__header__item--active
+  .pasos-b__header__item__dot
+    border-color: #7D420E !important
+    background-color: #7D420E !important
+    span
+      color: $white !important
+.pasos-b__header__item--before
+  .pasos-b__header__item__dot
+    border-color: #F3F9FF
+    background-color: #F3F9FF
+    i
+      color: $black !important
+.pasos-b__header__item__dot
+  background-color: #F3F9FF
+  
+.pasos-b__header__btn--left, .pasos-b__header__btn--right
+  background-color: $color-acento-botones
+  border: 1px solid $white
+  i
+    color: $white !important
+    
+.pasos-b__header__item--before .pasos-b__header__item__line-container:before, .pasos-b__header__item--before .pasos-b__header__item__line-container:after
+  background-color: #9D9D9D
+.pasos-b__header__item--active .pasos-b__header__item__line-container:before
+  background-color: #9D9D9D
+
+.linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+  background-color: #E7EFFA
+
+.linea-tiempo-d.color-secundario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color: #7D420E
+  color: #FFFFFF
+
+.bg-white
+  background-color: #FFFFFF
