@@ -27,7 +27,7 @@
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 <b>Figura 2.</b> <i>Jerarquía necesidades humanas</i>
         figure
-          img(src='@/assets/curso/temas/tema5/fig-2a.svg', alt='Figura que relaciona una matriz que representa de manera jerárquica las necesidades humanas.')  
+          img(src='@/assets/curso/temas/tema5/fig-2a.svg', alt='Figura que relaciona una matriz que representa de manera jerárquica las necesidades humanas, como son competencia, habilidad, destreza y conducta.')  
           figcaption Nota. Adaptado de Raciti (2016)
 
 
@@ -92,9 +92,9 @@
               th(colspan="4") Necesidades existenciales
               th(rowspan="2") Necesidades axiológicas
             tr.bg-tb-2
-              th Ser (Lo que se tiene que ser para cumplir esa necesidad)
-              th Tener (lo que se tiene que tener para cumplir esa necesidad)
-              th Hacer (lo que se tiene que hacer para cumplir esa necesidad)
+              th Ser (lo que tiene que asumir para cumplir esa necesidad)
+              th Tener (lo que es necesario poseer para satisfacer esa necesidad)
+              th Hacer (lo que se tiene que realizar para cumplir esa necesidad)
               th Estar (en dónde se puede cumplir esa necesidad)
           tbody
             tr

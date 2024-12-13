@@ -7,7 +7,7 @@
         span 3
       h1 Necesidades axiológicas y existenciales
 
-    p.mb-5(data-aos="fade-left") Según Max-Neef (1993), las necesidades humanas son un sistema interconectado que incluye necesidades: 
+    p.mb-5(data-aos="fade-left") Según Max-Neef (1993), las necesidades humanas son un sistema interconectado que incluye dos categorías: 
 
     .tarjeta--container.row.mb-5(data-aos="zoom-in-down")
       .col-md.tarjeta.color-primario.p-5
