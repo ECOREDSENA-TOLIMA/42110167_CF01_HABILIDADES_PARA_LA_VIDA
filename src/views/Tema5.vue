@@ -7,21 +7,20 @@
         span 5
       h1 Competencias socioemocionales
     
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down")
-      .col-lg-5.mb-lg-0.mb-4
-        figure
-          img(src='@/assets/curso/temas/tema5/img_1.png', alt='')
-      .col-lg-7
-        .bloque-texto-d.color-secundario.p-4.ps-0.pb-3.mb-4
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-7.order-lg-1.order-2(data-aos="fade-left")
+        .bloque-texto-d.color-primario.p-4.mb-4
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left(style="color:#E6D09E")
             p Para satisfacer sus necesidades fundamentales, las personas desarrollan competencias socioemocionales que les permiten comunicarse, tomar decisiones éticas, fortalecer la autoestima, ser resilientes ante los imprevistos, trabajar en equipo y regular sus emociones en las relaciones personales y sociales.
             i.fas.fa-quote-right(style="display:none")
-          .bloque-texto-d__autor.mt-0.pt-0
+          .bloque-texto-d__autor
             .h5.mb-0 (Ricouer, citado en Raciti, 2016). 
               i.fas.fa-quote-right(style="color:#E6D09E")
         p.mb-2 Estas competencias no funcionan de manera aislada, sino que requieren un equilibrio cultural que favorezca la interacción con el mundo, con los demás y consigo mismo.
-        p.mb-2 La satisfacción de las necesidades humanas, impulsa a las personas a buscar tanto su bienestar, como el de su comunidad. En este sentido, los constructos socioemocionales deben reconocerse como una parte esencial de la naturaleza humana, ya que permiten expresar y gestionar deseos y aspiraciones en el ámbito de las relaciones humanas y en conexión con el medio ambiente. Al respecto, analice la siguiente jerarquía:
+        p.mb-0 La satisfacción de las necesidades humanas, impulsa a las personas a buscar tanto su bienestar, como el de su comunidad. En este sentido, los constructos socioemocionales deben reconocerse como una parte esencial de la naturaleza humana, ya que permiten expresar y gestionar deseos y aspiraciones en el ámbito de las relaciones humanas y en conexión con el medio ambiente. Al respecto, analice la siguiente jerarquía:
+      .col-lg-5.col-10.mb-lg-0.mb-4.order-lg-2.order-1(data-aos="fade-right")
+        img(src='@/assets/curso/temas/tema5/img_1.png', alt='Imagen decorativa')
 
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-9.col-12.mb-4.mb-lg-2
@@ -39,19 +38,17 @@
         .tarjeta-avatar-b.mb-4
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema5/icoA.svg' alt='AvatarTop')
-          .tarjeta.tarjeta--azul
-            .p-4
-              h4 Fundantes
-              p Relacionadas con el ser.
+          .tarjeta.BGR01.p-4
+            h4.ps-5 Fundantes
+            p.ps-5.mb-0 Relacionadas con el ser.
 
       .col-lg-5.mb-lg-0.mb-4(data-aos="fade-right")
         .tarjeta-avatar-b
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/tema5/icoB.svg' alt='AvatarTop')
-          .tarjeta.tarjeta--azul
-            .p-4
-              h4 Estratégicas
-              p Relacionadas con el hacer.
+          .tarjeta.BGR01.p-4
+            h4.ps-5 Estratégicas
+            p.ps-5.mb-0 Relacionadas con el hacer.
 
     .bloque-texto-g.bloque-texto-g--inverso.color-primario.mb-5.p-3.p-sm-4.p-md-5(data-aos="fade-down")
       .bloque-texto-g__img(
@@ -70,14 +67,14 @@
         .row.justify-content-center.px-lg-0.px-3
           .col-12.col-lg-8.mb-3
             figure
-              img(src='@/assets/curso/temas/tema5/img-1A.png', alt='')
+              img(src='@/assets/curso/temas/tema5/img-1A.png', alt='Imagen decorativa')
           .col-12.col-lg-4
             p.mb-0 Son la base emocional y personal de cada individuo. Incluyen autoestima, resiliencia, regulación emocional y capacidad de comunicación. Estas competencias son esenciales para la conexión con uno mismo, los demás y el mundo.
       .p-4.p-lg-5(titulo="CSE del hacer (estratégicas)")
         .row.justify-content-center.px-lg-0.px-3
           .col-12.col-lg-8.mb-3
             figure
-              img(src='@/assets/curso/temas/tema5/img-1B.png', alt='')
+              img(src='@/assets/curso/temas/tema5/img-1B.png', alt='Imagen decorativa')
           .col-12.col-lg-4
             p.mb-0 Están relacionadas con las acciones que las personas realizan para resolver problemas y alcanzar metas, conectando lo que son con lo que hacen.
 
@@ -88,7 +85,7 @@
       .titulo-sexto.color-acento-contenido
         p.pb-0.mb-0 <b>Tabla 15. </b> <em>Matriz de relación competencias fundantes y necesidades existenciales y axiológicas</em>
       .tabla-a.color-acento-contenido.mb-5
-        table
+        table(alt="Tabla que relaciona las competencias fundantes y sus necesidades existenciales y axiológicas.")
           thead
             tr.text-center
               th(rowspan="2") Competencias fundantes
@@ -138,13 +135,12 @@
 
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-down")
-      .col-12.col-lg-8.order-lg-1.order-2
+      .col-lg-8.order-lg-1.order-2
         p.mb-2 Las CSE articuladas bajo la categoría existencial del hacer se pueden definir como competencias integradoras, en la medida en que se expresan a través de la interacción entre varias competencias fundantes.
-        .cajon.cajon.color-secundario.p-4
+        .cajon.cajon1.color-primario.p-4
           p.mb-0 Las competencias CSE integradoras combinan las competencias fundantes y habilidades técnicas específicas para facilitar la acción y expresión en diferentes contextos. Estas competencias permiten a las personas satisfacer sus necesidades existenciales de creación y participación, promoviendo su interacción con el entorno y con los demás.
-      .col-8.col-lg-4.order-lg-2.order-1.mb-5.mb-lg-2
-        figure
-          img(src='@/assets/curso/temas/tema5/img-3.png', alt='')
+      .col-8.col-lg-4.order-lg-2.order-1.mb-5.mb-lg-0
+        img(src='@/assets/curso/temas/tema5/img-3.png', alt='Imagen decorativa')
 
     p.mb-5(data-aos="fade-right") Y como segunda categoría, hacen parte de las competencias estratégicas: liderazgo, gestión del conflicto, trabajo en equipo y toma de decisiones, las cuales se explican a continuación:
 
@@ -153,7 +149,7 @@
       .titulo-sexto.color-acento-contenido
         p.pb-0.mb-0 <b>Tabla 16. </b> <em>Matriz de relación competencias estratégicas y necesidades existenciales y axiológicas</em>
       .tabla-a.color-acento-contenido.mb-5
-        table
+        table(alt="Tabla que relaciona las competencias estratégicas y sus necesidades existenciales y axiológicas.")
           thead
             tr.text-center
               th(rowspan="2") Competencias estratégicas

@@ -24,10 +24,10 @@
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-down")
       .col-lg-5.mb-lg-0.mb-4
         figure
-          img(src='@/assets/curso/temas/tema2/img_2.png', alt='')
+          img(src='@/assets/curso/temas/tema2/img_2.png', alt='Imagen decorativa')
       .col-lg-7
         p.mb-2 El desarrollo no depende del dinero ni del consumo, sino de cómo se satisfacen las necesidades humanas para que cada persona pueda vivir como desea. Lo importante es que las personas tengan oportunidades para desarrollar sus capacidades. Para lograr desarrollo, no bastan leyes; 
-        .bloque-texto-d.color-secundario.p-4.ps-0.pb-3.mb-4
+        .bloque-texto-d.color-primario.p-4.ps-0.pb-3.mb-4
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left(style="color:#E6D09E")
             p Es necesario que las personas actúen según sus sueños y usen su creatividad y pensamiento crítico para ser protagonistas del cambio.

@@ -14,14 +14,14 @@
         .row.justify-content-center.mb-4
           .col-6.col-lg-4
             figure
-              img(src='@/assets/curso/temas/tema3/img_1.svg', alt='')
+              img(src='@/assets/curso/temas/tema3/img_1.svg', alt='Imagen decorativa')
         h4.text-center Existenciales
         p.text-center Ser, tener, hacer, estar.
       .col-md.tarjeta.color-secundario.p-5
         .row.justify-content-center.mb-4
           .col-6.col-lg-4
             figure
-              img(src='@/assets/curso/temas/tema3/img_2.svg', alt='')
+              img(src='@/assets/curso/temas/tema3/img_2.svg', alt='Imagen decorativa')
         h4.text-center Axiológicas
         p.text-center Subsistencia, protección, afecto, entendimiento, participación, ocio, creación, identidad y libertad.  
 
@@ -33,17 +33,14 @@
         p.mb-2 Las necesidades humanas, los satisfactores y los bienes económicos, están interconectados; por ejemplo, cuando una madre amanta a su bebé, satisface simultáneamente necesidades como subsistencia, protección, afecto e identidad. De igual manera, un joven que estudia, no solo cubre su necesidad de aprendizaje, sino también de adquiere herramientas para creación y participación en diferentes espacios sociales.
       .col-8.col-lg-4.order-lg-2.order-1.mb-5.mb-lg-2
         figure
-          img(src='@/assets/curso/temas/tema3/img-3.png', alt='')
-
-          
-    .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
-      .col-12    
-        .cajon.cajon1.color-primario.p-4
-          .row.justify-content-center.align-items-center
-            .col-lg-2.col-md-4.col-6.mb-3
-              img(src='@/assets/curso/temas/tema3/img35.svg', alt='Imagen decorativa' style="width:75%")
-            .col-lg-9.col-12
-              p.mb-0 Los bienes económicos, como artefactos o tecnologías, permiten que los satisfactores funcionen adecuadamente, pero también pueden alterar cómo se satisfacen las necesidades, ya sea de manera positiva o negativa. Sin embargo, la producción acelerada y la diversificación de bienes, han llevado a una dependencia creciente, haciendo que algunos bienes dejen de satisfacer necesidades y se conviertan en fines en sí mismos.
+          img(src='@/assets/curso/temas/tema3/img-3.png', alt='Imagen decorativa')
+  
+    .cajon.cajon1.color-primario.p-4.mb-5(data-aos="flip-up")
+      .row.justify-content-center.align-items-center
+        .col-lg-2.col-md-4.col-6.mb-lg-0.mb-3
+          img(src='@/assets/curso/temas/tema3/img35.svg', alt='Imagen decorativa' style="width:55%")
+        .col-lg-9
+          p.mb-0 Los bienes económicos, como artefactos o tecnologías, permiten que los satisfactores funcionen adecuadamente, pero también pueden alterar cómo se satisfacen las necesidades, ya sea de manera positiva o negativa. Sin embargo, la producción acelerada y la diversificación de bienes, han llevado a una dependencia creciente, haciendo que algunos bienes dejen de satisfacer necesidades y se conviertan en fines en sí mismos.
 
     p.mb-4 Los bienes y tecnologías cambian según la cultura y las clases sociales, influyendo en cómo se satisfacen las necesidades y moldeando los estilos de desarrollo y las culturas. Esta interacción constante, define tanto la manera en que se vive, como el desarrollo de la sociedad. Las necesidades existenciales son definidas de la siguiente manera:
 
@@ -53,21 +50,21 @@
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-down")
       .col-lg-3.col-6.mb-4.mb-lg-0
         figure
-          img(src='@/assets/curso/temas/tema3/img_5.png', alt='')
-      .col-lg-9.col-12
-        TabsA.color-acento-botones.mb-4
-          .tarjeta.color-primario.p-4(titulo="Ser")
+          img(src='@/assets/curso/temas/tema3/img_5.png', alt='Imagen decorativa')
+      .col-lg-9
+        TabsA.color-acento-botones
+          .tarjeta.color-secundario.p-4(titulo="Ser")
             p.mb-3 Se refiere a los atributos personales, la manera de pensar, sentir y actuar, así como a la capacidad de autodeterminarse en las decisiones sobre su vida y las relaciones con los demás. 
-            p.mb-3 #[b Ejemplo:] una persona elige estudiar una carrera que le apasiona, independientemente de las opiniones externas.
-          .tarjeta.color-primario.p-4(titulo="Tener")
+            p.mb-0 #[b Ejemplo:] una persona elige estudiar una carrera que le apasiona, independientemente de las opiniones externas.
+          .tarjeta.color-secundario.p-4(titulo="Tener")
             p.mb-3 Está relacionado con los recursos materiales e inmateriales que una persona necesita para su bienestar, incluyendo habilidades, conocimientos y objetos que facilitan el logro de sus metas. 
-            p.mb-3 #[b Ejemplo:] alguien cuenta con un computador o #[em tablet] y sabe usarla para sus estudios.
-          .tarjeta.color-primario.p-4(titulo="Hacer")
+            p.mb-0 #[b Ejemplo:] alguien cuenta con un computador o #[em tablet] y sabe usarla para sus estudios.
+          .tarjeta.color-secundario.p-4(titulo="Hacer")
             p.mb-3 Involucra las actividades y acciones que una persona realiza, ya sea de forma individual o colectiva, para alcanzar sus objetivos en los ámbitos personal, social, profesional o familiar. 
-            p.mb-3 #[b Ejemplo:] una persona participa en un curso corto de fotografía para aprender una nueva habilidad
-          .tarjeta.color-primario.p-4(titulo="Estar")
+            p.mb-0 #[b Ejemplo:] una persona participa en un curso corto de fotografía para aprender una nueva habilidad
+          .tarjeta.color-secundario.p-4(titulo="Estar")
             p.mb-3 Tiene que ver con las relaciones con su entorno, los espacios físicos donde se desarrolla y las conexiones sociales que establece, así como las acciones que realiza en su contexto. 
-            p.mb-3 #[b Ejemplo:] alguien organiza un espacio comunitario para reuniones y actividades compartidas.
+            p.mb-0 #[b Ejemplo:] alguien organiza un espacio comunitario para reuniones y actividades compartidas.
 
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-12
@@ -81,8 +78,8 @@
             .row.justify-content-center.p-4(titulo="")
               .titulo-sexto.color-acento-contenido(data-aos="zoom-in-right")
                 p.pb-0.mb-0 <b>Tabla 1. </b> <em>Matriz de relación necesidad de subsistencia y categorías existenciales</em>
-              .tabla-a.color-acento-contenido.mb-5
-                table
+              .tabla-a.color-acento-contenido
+                table(alt="Tabla que relaciona las necesidades de subsistencia y las categorías existenciales.")
                   thead
                     tr.text-center
                       th Necesidad de subsistencia  
@@ -100,8 +97,8 @@
             .row.justify-content-center.p-4(titulo="")
               .titulo-sexto.color-acento-contenido(data-aos="zoom-in-right")
                 p.pb-0.mb-0 <b>Tabla 2. </b> <em>Matriz de relación necesidad de protección y categorías existenciales</em>
-              .tabla-a.color-acento-contenido.mb-5
-                table
+              .tabla-a.color-acento-contenido
+                table(alt="Tabla que relaciona las necesidades de protección y las categorías existenciales.")
                   thead
                     tr.text-center
                       th Necesidad de identidad 
@@ -119,8 +116,8 @@
             .row.justify-content-center.p-4(titulo="")
               .titulo-sexto.color-acento-contenido(data-aos="zoom-in-right")
                 p.pb-0.mb-0 <b>Tabla 3. </b> <em>Matriz de relación necesidad de afecto y categorías existenciales</em>
-              .tabla-a.color-acento-contenido.mb-5
-                table
+              .tabla-a.color-acento-contenido
+                table(alt="Tabla que relaciona las necesidades de afecto y las categorías existenciales.")
                   thead
                     tr.text-center
                       th Necesidad de afecto  
@@ -138,8 +135,8 @@
             .row.justify-content-center.p-4(titulo="")
               .titulo-sexto.color-acento-contenido(data-aos="zoom-in-right")
                 p.pb-0.mb-0 <b>Tabla 4. </b> <em>Matriz de relación necesidad de entendimiento y categorías existenciales</em>
-              .tabla-a.color-acento-contenido.mb-5
-                table
+              .tabla-a.color-acento-contenido
+                table(alt="Tabla que relaciona las necesidades de entendimiento y las categorías existenciales.")
                   thead
                     tr.text-center
                       th Necesidad de entendimiento   
@@ -157,8 +154,8 @@
             .row.justify-content-center.p-4(titulo="")
               .titulo-sexto.color-acento-contenido(data-aos="zoom-in-right")
                 p.pb-0.mb-0 <b>Tabla 5. </b> <em>Matriz de relación necesidad de participación y categorías existenciales</em>
-              .tabla-a.color-acento-contenido.mb-5
-                table
+              .tabla-a.color-acento-contenido
+                table(alt="Tabla que relaciona las necesidades de participación y las categorías existenciales.")
                   thead
                     tr.text-center
                       th Necesidad de participación   
@@ -176,8 +173,8 @@
             .row.justify-content-center.p-4(titulo="")
               .titulo-sexto.color-acento-contenido(data-aos="zoom-in-right")
                 p.pb-0.mb-0 <b>Tabla 6. </b> <em>Matriz de relación necesidad de ocio y categorías existenciales</em>
-              .tabla-a.color-acento-contenido.mb-5
-                table
+              .tabla-a.color-acento-contenido
+                table(alt="Tabla que relaciona las necesidades de ocio y las categorías existenciales.")
                   thead
                     tr.text-center
                       th Necesidad de ocio 
@@ -195,8 +192,8 @@
             .row.justify-content-center.p-4(titulo="")
               .titulo-sexto.color-acento-contenido(data-aos="zoom-in-right")
                 p.pb-0.mb-0 <b>Tabla 7. </b> <em>Matriz de relación necesidad de creación y categorías existenciales</em>
-              .tabla-a.color-acento-contenido.mb-5
-                table
+              .tabla-a.color-acento-contenido
+                table(alt="Tabla que relaciona las necesidades de creación y las categorías existenciales.")
                   thead
                     tr.text-center
                       th Necesidad de creación  
@@ -214,8 +211,8 @@
             .row.justify-content-center.p-4(titulo="")
               .titulo-sexto.color-acento-contenido(data-aos="zoom-in-right")
                 p.pb-0.mb-0 <b>Tabla 8. </b> <em>Matriz de relación necesidad de identidad y categorías existenciales</em>
-              .tabla-a.color-acento-contenido.mb-5
-                table
+              .tabla-a.color-acento-contenido
+                table(alt="Tabla que relaciona las necesidades de identidad y las categorías existenciales.")
                   thead
                     tr.text-center
                       th Necesidad de identidad 
@@ -233,8 +230,8 @@
             .row.justify-content-center.p-4(titulo="")
               .titulo-sexto.color-acento-contenido(data-aos="zoom-in-right")
                 p.pb-0.mb-0 <b>Tabla 9. </b> <em>Matriz de relación necesidad de libertad y categorías existenciales</em>
-              .tabla-a.color-acento-contenido.mb-5
-                table
+              .tabla-a.color-acento-contenido
+                table(alt="Tabla que relaciona las necesidades de libertad y las categorías existenciales.")
                   thead
                     tr.text-center
                       th Necesidad de libertad 
